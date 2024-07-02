@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-prometheus"
+version = "0.1.0"
+description = "fastapi with prometheus"
+authors = ["suriya <suriya4code@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+prometheus-client = "^0.20.0"
+prometheus-flask-exporter = "^0.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
